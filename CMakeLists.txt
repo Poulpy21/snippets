@@ -12,6 +12,7 @@ get_filename_component(SRC_DIR      "${PROJECT_HOME}/src" ABSOLUTE)
 
 list(APPEND executable_sources "${SRC_DIR}/hello_world.cpp")
 list(APPEND executable_sources "${SRC_DIR}/fibonacci.cpp")
+list(APPEND executable_sources "${SRC_DIR}/pyramidal.cpp")
 
 file(GLOB_RECURSE header_files "${SRC_DIR}/*.h")
 file(GLOB_RECURSE source_files "${SRC_DIR}/*.cpp")
